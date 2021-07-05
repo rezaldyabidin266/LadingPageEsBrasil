@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <script src="anime-master/lib/anime.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>
+        $(window).on('load', function() {
+            $('.preloader').addClass('complete')
+        })
+    </script>
+
+    <!--SLider-->
+    <link rel="stylesheet" href="js/slider/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="js/slider/dist/assets/owl.theme.default.min.css">
+    <!-- AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Es Brasil</title>
+    <link rel="shortcut icon" href="image/logoEsBrasilNoBackground.png">
+</head>
+
+<body id="home" data-spy="scroll" data-target="#main-nav" class="">
+    <!-- <div class="preloader">
+
+    </div> -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top py-4" id="main-nav" data-aos="fade-down" data-aos-offset="0" data-aos-delay="6000" data-aos-duration="1000">
+        <div class="container">
+            <a href="#home" class="navbar-brand">
+                <img src="image/logoEsBrasilNoBackground.png" width="120" height="50" alt="">
+                <!-- <h3 class="d-inline align-middle">EsBrasil</h3> -->
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link ">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link ">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#authors" class="nav-link ">Available</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link ">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Agent
+                          </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Bogor</a>
+                            <a class="dropdown-item" href="#">Purwokerto</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link ">Karir</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SHOWCASE -->
+    <section id="showcase" class="py-5 ">
+        <div class="primary-overlay text-secondary">
+            <!--Gak Pake Primary-overlay-->
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-8 text-center kolom-headline" data-aos="zoom-out-right" data-aos-offset="0" data-aos-delay="3000" data-aos-duration="1000">
+                        <!-- <span class=" span-ukuran">
+                            <img src="image/background/ramdahanteks.png " class="image-teks"alt="">
+                        </span> -->
+                        <div class="d-flex flex-column">
+                            <h1 class="text-headline">
+                                You Can’t Buy “<strong style="color:#1ed760; font-family: 'Kaushan Script', cursive;">HAPPINESS</strong> ”
+                            </h1>
+                            <h1 class="" id="tahundua">But You Can Buy “<strong style="color:#1ed760; font-family: 'Kaushan Script', cursive;">ES BRASIL</strong> ” </h1>
+                            <h1 class="" id="tahunhiji">- ES BRASIL Makes Everything Better -</h1>
+                        </div>
+
+
+                        <p class="lead"></p>
+                        <!-- <a href="#" class="btn btn-outline-secondary btn-lg text-white">
+                            <i class="fas fa-arrow-right"></i> Read More
+                        </a> -->
+                    </div>
+                    <!-- <div class="col-lg-6">
+                        <img src="image/background/idul-fitri.jpeg" alt="" class="img-fluid d-none d-lg-block mt-4 " data-aos="zoom-in" data-aos-delay="2000" data-aos-duration="1000" data-aos-offset="0">
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section id="newsletter" class="bg-custom-sub text-white py-5">
+        <div class="container">
+            <div class="row" data-aos="fade-up" data-aos-offset="0" data-aos-duration="1000">
+                <div class="col-md-4">
+                    <input type="text" class="form-control form-control-lg mb-resp" placeholder="Enter Name">
+                </div>
+                <div class="col-md-4">
+                    <input type="email" class="form-control form-control-lg mb-resp" placeholder="Enter Email">
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-sub btn-lg btn-block">
+            <i class="fas fa-envelope-open-o"></i> Subscribe
+          </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT / WHY SECTION -->
+    <section id="about" class="py-5 text-center image-potrait image-size">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="info-header mb-5">
+                        <div class=" pb-3 title">
+                            EsBrasil
+                        </div>
+                        <p class="lead pb-3">
+                            Es Brasil terkenal sebagai Es legendaris dari purwokerto yang sudah lahir sejak tahun 1968.
+                        </p>
+                    </div>
+
+                    <!-- ACCORDION -->
+                    <div id="accordion" data-aos="zoom-in-up" data-aos-offset="250" data-aos-delay="50" data-aos-duration="1200">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <div href="#collapse1" data-toggle="collapse" data-parent="#accordion">
+                                        <i class="fas fa-arrow-circle-down text-primary"></i> Ice Cream Ingredients
+                                    </div>
+                                </h5>
+                            </div>
+
+                            <div id="collapse1" class="collapse show">
+                                <div class="card-body">
+                                    Dibuat dari bahan baku lokal, buah segar pilihan dan bumbu rempah segar, tanpa bahan pengawet. <br>Dengan kandungan gula asli sangat rendah, cocok untuk pelepas dahaga tanpa khawatir berat badan nambah.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <div href="#collapse2" data-toggle="collapse" data-parent="#accordion">
+                                        <i class="fas fa-arrow-circle-down text-danger"></i> Flavors Of Ice Cream
+                                    </div>
+                                </h5>
+                            </div>
+
+                            <div id="collapse2" class="collapse">
+                                <div class="card-body pt-2 pb-2 text-center">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <h5 class="mb-1">KACANG HIJAU</h5>
+                                            <h5 class="blockquote-footer mb-1">Gizi yang lengkap, memperlancar proses pencernaan.</h5>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <h5 class="mb-1 mt-2">KETAN HITAM</h5>
+                                            <h5 class="blockquote-footer mb-1">Keseimbangan nutrisi dan kalori, seimbang bagi kesehatan dan kecantikan.</h5>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <h5 class="mb-1 mt-2">KELAPA MUDA</h5>
+                                            <h5 class="blockquote-footer mb-1">khasiat yang banyak, memperbaiki kesehatan tubuh.</h5>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <h5 class="mb-1 mt-2">COKLAT CHIP</h5>
+                                            <h5 class="blockquote-footer mb-1">Zat yang baik, mencegah penuaan dan penyakit mematikan.</h5>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <h5 class="mb-1 mt-2">SIRSAK</h5>
+                                            <h5 class="blockquote-footer mb-1"> Vitamin C, menyegarkan kulit dan mengurangi risiko penyakit kronis.</h5>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <h5 class="mb-1 mt-2">DURIAN</h5>
+                                            <h5 class="blockquote-footer mb-1"> Kandungan serat, meningkatkan daya tahan tubuh and say goodbye nyeri sendi!</h5>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <h5 class="mb-1 mt-2">KOPI </h5>
+                                            <h5 class="blockquote-footer mb-1"> Takaran yang pas, meningkatkan stamina dan daya ingat yang kuat.</h5>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <h5 class="mb-1 mt-2">RUJAK</h5>
+                                            <h5 class="blockquote-footer mb-1"> Kaya akan vitamin,sehingga terhindar dari berbagai penyakit.</h5>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <div href="#collapse3" data-toggle="collapse" data-parent="#accordion">
+                                        <i class="fas fa-arrow-circle-down text-success"></i> Marketing Through
+                                    </div>
+                                </h5>
+                            </div>
+
+                            <div id="collapse3" class="collapse">
+                                <div class="card-body">
+                                    <strong>YEAY!!! Tak perlu cemas… </strong>kini ES BRASIL tersedia di berbagai market modern jabodetabek, serang dan karawang yang bisa kamu kunjungi secara langsung. Berikut market modern yang sudah bekerja sama dengan
+                                    es brasil, yaitu : <strong>Naga Swalayan, Jogya, Carrefour, Lotte Mart, Lulu Hypermarket, Giant, AEON Mall dan masih banyak lagi.</strong><br> Untuk kamu yang mager keluar rumah? tenang…. Kami menyediakan sistem pembelian
+                                    secara online nya juga lho! Cukup menghubungi Instagram atau whatapps yang sudah kami cantumkan dibawah ya visitors! Terutama yang berada diwilayah bogor, bisa memesan nya via GO-FOOD lalu kamu bisa mencari “ES BRASIL”
+                                    setelah itu pilihlah menu favorite kamu. Wihh simple banget kan !
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PHOTO GALLERY -->
+    <section id="gallery" class="py-5 image-potrait2 image-size2">
+        <div class="container">
+            <h1 class="text-center title-ice text-merah mb-3">Ice Cream</h1>
+            <h4 class="text-center">
+                Most Of The Taste</h4>
+            <div class="row mb-4 materi">
+                <div class="col-md-4 mb-2">
+                    <a href="image/produk/1.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-title="Rasa Rujak" data-max-width="500" data-max-height="500">
+                        <img src="image/produk/1.jpg" alt="" class="img-fluid" data-aos="zoom-in-up" data-aos-offset="250" data-aos-delay="50" data-aos-duration="1000">
+                    </a>
+                </div>
+
+                <div class="col-md-4 mb-2">
+                    <a href="image/produk/2.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-title="Rasa Vanila" data-max-width="500" data-max-height="500">
+                        <img src="image/produk/2.jpg" alt="" class="img-fluid" data-aos="zoom-in-up" data-aos-offset="250" data-aos-delay="50" data-aos-duration="1000">
+                    </a>
+                </div>
+
+                <div class="col-md-4 mb-2">
+                    <a href="image/produk/5.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-title="All Rasa" data-max-width="500" data-max-height="500">
+                        <img src="image/produk/5.jpg" alt="" class="img-fluid" data-aos="zoom-in-up" data-aos-offset="250" data-aos-delay="50" data-aos-duration="1000">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row mb-4 materi ">
+                <div class="col-md-4 mb-2">
+                    <a href="image/produk/6.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-title="All Rasa" data-max-width="500" data-max-height="500">
+                        <img src="image/produk/6.jpg" alt="" class="img-fluid" data-aos="zoom-in-up" data-aos-offset="250" data-aos-delay="50" data-aos-duration="1000">
+                    </a>
+                </div>
+
+                <div class="col-md-4 mb-2">
+                    <a href="image/produk/4.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-title="Rasa Kacang Hijau" data-max-width="500" data-max-height="500">
+                        <img src="image/produk/4.jpg" alt="" class="img-fluid" data-aos="zoom-in-up" data-aos-offset="250" data-aos-delay="50" data-aos-duration="1000">
+                    </a>
+                </div>
+
+                <div class="col-md-4 mb-2">
+                    <a href="image/produk/3.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-title="Es CUP" data-max-width="500" data-max-height="500">
+                        <img src="image/produk/3.jpg" alt="" class="img-fluid" data-aos="zoom-in-up" data-aos-offset="250" data-aos-delay="50" data-aos-duration="1000">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- BOXES -->
+    <section id="boxes" class="py-5 " data-aos="fade-down" data-aos-offset="200" data-aos-duration="1000">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-3">
+                    <h1 class="text-center text-primary ">Featured</h1>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center border-primary mb-resp">
+                        <div class="card-body">
+                            <i class="fas fa-database fa-3x mb-2 text-primary"></i>
+                            <h3 class="text-primary">Original</h3>
+                            <p class="text-muted">Karna bahan baku nya yang original dari buah asli tanpa bahan pengawet.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center bg-primary text-white mb-resp">
+                        <div class="card-body">
+                            <i class="fas fa-shield-alt fa-3x mb-2 text-white"></i>
+                            <h3>100% Halal</h3>
+                            <p>Proses pembuatannya turun temurun masih tradisional tidak ada bahan kimia.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center border-primary mb-resp">
+                        <div class="card-body">
+                            <i class="fas fa-tags fa-3x mb-2 text-primary"></i>
+                            <h3 class="text-primary">Cost</h3>
+                            <p class="text-muted">Harga yang sangat terjangkau dengan rasa yang worth it banget hihi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center bg-primary text-white">
+                        <div class="card-body">
+                            <i class="fas fa-heartbeat fa-3x mb-2 text-white"></i>
+                            <h3>
+                                Healthy</h3>
+                            <p>Terdiri dari bahan baku yang kaya akan vitamin sehat untuk dikonsumsi </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AUTHORS -->
+    <section id="authors" class="my-5 text-center image-potrait4 image-size4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="info-header mb-5">
+                        <h1 class="text-primary pb-2">
+                            Available
+                        </h1>
+                        <p class="lead text-center">
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card" data-aos="fade-up" data-aos-offset="200" data-aos-duration="800">
+                        <div class="card-body">
+                            <img src="image/carre 3.png" alt="" class="img-fluid rounded-circle w-50 mb-3 ">
+                            <h3>CARREFOUR</h3>
+                            <h5 class="text-muted">“Gerai Retail Pilihan Untuk Keluarga Indonesia”</h5>
+                            <p>Tersedia di outlet Carrefour Jabodetabek,serang dan karawang</p>
+                            <div class="d-flex justify-content-center">
+                                <div class="p-4">
+                                    <a href="http://facebook.com">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://twitter.com">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://instagram.com">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card" data-aos="fade-up" data-aos-offset="200" data-aos-duration="800">
+                        <div class="card-body">
+                            <img src="image/lulu.png" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                            <h3>LULU HYPERMARKET</h3>
+                            <h5 class="text-muted">“Where the world comes to shop,safety!”</h5>
+                            <p>Tersedia di outlet Lulu Hypermarket jabodetabek.</p>
+                            <div class="d-flex justify-content-center">
+                                <div class="p-4">
+                                    <a href="http://facebook.com">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://twitter.com">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://instagram.com">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card" data-aos="fade-up" data-aos-offset="200" data-aos-duration="800">
+                        <div class="card-body">
+                            <img src="image/lotte.png" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                            <h3>LOTTE MART</h3>
+                            <h5 class="text-muted">“Belanja tepat pas dihati”</h5>
+                            <p>Tersedia di outlet Lotte Jabodetabek,serang dan karawang.</p>
+                            <div class="d-flex justify-content-center">
+                                <div class="p-4">
+                                    <a href="http://facebook.com">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://twitter.com">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://instagram.com">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card" data-aos="fade-up" data-aos-offset="200" data-aos-duration="800">
+                        <div class="card-body">
+                            <img src="image/giant.png" alt="" class="img-fluid rounded w-50 mb-5">
+                            <h3>GIANT HYPERMARKET</h3>
+                            <h5 class="text-muted">”Banyak pilihan, Harga lebih murah”</h5>
+                            <p>Tersedia di outlet Giant Jabodetabek,serang dan karawang.</p>
+                            <div class="d-flex justify-content-center">
+                                <div class="p-4">
+                                    <a href="http://facebook.com">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://twitter.com">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://instagram.com">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section id="berita" class="area-berita image-potrait5 image-size5">
+        <div class="container-fluid">
+            <div class="row row-berita">
+                <div class="col-12 mb-4">
+                    <h1 class="text-center text-primary ">New Location</h1>
+                </div>
+                <div class="col-12">
+                    <div class="owl-berita owl-carousel owl-theme">
+                        <div class="item wrap-berita">
+                            <img src="image/New Product/Duta Buah.jpg" alt="">
+                        </div>
+                        <div class="item wrap-berita">
+                            <img src="image/New Product/Gubug Udang 2-01.jpg" alt="">
+                        </div>
+                        <div class="item wrap-berita">
+                            <img src="image/New Product/Gubuk Mang Engking.jpg" alt="">
+                        </div>
+                        <div class="item wrap-berita">
+                            <img src="image/New Product/Kebun Buah.jpg" alt="">
+                        </div>
+                        <div class="item wrap-berita">
+                            <img src="image/New Product/Kedai Sunda Cipayung.jpg" alt="">
+                        </div>
+                        <div class="item wrap-berita">
+                            <img src="image/New Product/Padang Sederhana - Copy.jpg" alt="">
+                        </div>
+                        <div class="item wrap-berita">
+                            <img src="image/New Product/Resto Trio.jpg" alt="">
+                        </div>
+                        <div class="item wrap-berita">
+                            <img src="image/New Product/Sawaregmoe.jpg" alt="">
+                        </div>
+                        <div class="item wrap-berita">
+                            <img src="image/New Product/Sinar Alam 1-01.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <!-- <section id="contact" class=" py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 mb-2">
+                    <h3>Pertayaan Kritik & Saran</h3>
+                    <p class="lead">Bila ada yang ingin di tanyakan. Hubungi Kami!</p>
+                    <form>
+                        <div class="input-group input-group-lg mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                  <i class="fas fa-user"></i>
+                </span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+
+                        <div class="input-group input-group-lg mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                  <i class="fas fa-envelope"></i>
+                </span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Email">
+                        </div>
+
+                        <div class="input-group input-group-lg mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                  <i class="fas fa-pencil-alt"></i>
+                </span>
+                            </div>
+                            <textarea class="form-control" placeholder="Message" rows="5"></textarea>
+                        </div>
+
+                        <input type="submit" value="Submit" class="btn btn-primary btn-block btn-lg">
+                    </form>
+                </div>
+
+                <div class="col-lg-3 align-self-center">
+                    <img src="image/logoEsBrasilNoBackground.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="contact" class=" area-chat py-4 bg-light" data-aos="fade-right" data-aos-offset="300" data-aos-duration="800">
+        <div class="container">
+            <div class="row d-flex justify-content-around flex-wrap">
+                <div class="chat col-lg-8">
+                    <h2><i class="fas fa-user-cog mr-3 text-danger"></i>Contact Us</h2>
+                    <p>Phone Support hanya tersedia di hari kerja Senin-Sabtu, <br>08:00 - 18:00 WIB.</p>
+                </div>
+                <div class="col-lg-4 btn-call ">
+                    <a href="https://wa.me/6285773993494" class="btn btn-success btn-lg mr-4 text-white"><i class="fab fa-whatsapp mr-2 fa-lg"></i>Admin</a>
+                    <a href="https://wa.me/6281586683813" class="btn btn-success btn-lg mr-4 text-white"><i class="fab fa-whatsapp mr-2 fa-lg"></i>Marketing</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="patner" class="area-patner py-4">
+        <div class="container">
+            <h2 class="text-center text-primary mb-5 mt-2">MARKETS AND STORE PARTNERS</h2>
+            <div class="d-flex justify-content-center flex-wrap flex-row-reverse">
+                <a href=" ">
+                    <img src="image/icon/Carrefour_logo.svg " class="mr-3 mb-2 icon-carre " alt=" ">
+                </a>
+                <a href=" ">
+                    <img src="image/icon/giant.png " class="mr-4 mb-2 icon-giant " alt=" ">
+                </a>
+                <a href=" ">
+                    <img src="image/icon/lotte2.png " class="mr-4 mb-2 icon-lotte2 " alt=" ">
+                </a>
+                <a href=" ">
+                    <img src="image/icon/lulu.png " class="mr-4 mb-2 icon-lulu " alt=" ">
+                </a>
+                <a href=" ">
+                    <img src="image/icon/aeon.png " class="mr-4 mb-2 icon-lulu " alt=" ">
+                </a>
+                <a href=" ">
+                    <img src="image/icon/kebunbuah.png " class="mr-4 mb-2 icon-kebun " alt=" ">
+                </a>
+                <a href=" ">
+                    <img src="image/icon/gs.svg " class="mr-4 mb-1 icon-lulu " alt=" ">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sub-footer" class="sub-footer py-5 bg-light ">
+        <div class="container">
+            <div class="d-flex justify-content-between flex-wrap">
+                <div class="sub-column">
+                    <h4>Perusahaan</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="">Layanan Pelanggan</a></li>
+                    </ul>
+                </div>
+                <div class="sub-column">
+                    <h4>Mitra</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="http://bogorstudio.com/">Bogor Studio</a></li>
+
+                    </ul>
+                </div>
+                <div class="sub-column">
+                    <h4>Customer</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="">Syarat & Ketentuan</a></li>
+                        <li><a href="">Refund Policy</a></li>
+                        <li><a href="">Faq</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+
+                </div>
+                <div class="sub-column">
+                    <h4>Agent</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="">Bogor</a></li>
+                        <li><a href="">Puworkerto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--WA-->
+    <a class="fixed-whatsapp " href="https://wa.me/6285773993494"></a>
+
+    <!-- FOOTER -->
+    <footer id="main-footer" class="pt-4 pb-3 bg-primary text-white foot">
+        <div class="container align-content-center text-center">
+            <div class="row d-flex justify-content-between ">
+                <div class="col-md-4 pt-2 mb-2 mb-0 ">
+                    <p class="lead">
+                        <strong> 
+                            Copyright &copy;
+                            <span id="year"></span> Es Brasil 
+                        </strong>
+                    </p>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center pt-2 mb-2 ">
+                    <a href="https://www.instagram.com/esbrasil_bogor/ " class="mr-3 ">
+                        <i class="fab fa-instagram fa-2x text-white "></i>
+                    </a>
+                    <a href="https://www.facebook.com/Esbrasilbgr" class=" ">
+                        <i class="fab fa-facebook-square fa-2x text-white "></i>
+                    </a>
+                    <a href="https://wa.me/6285773993494 " class="ml-3 ">
+
+                        <i class="fab fa-whatsapp fa-2x text-white "></i>
+                    </a>
+                </div>
+                <div class="col-md-4 pt-2 mb-2 mb-0">
+                    <p class="lead ">
+                        <strong>
+                       Create By Bogor Studio
+                        <strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+ 
+    <!--- Top Scroll -->
+    <a href="#home " class="top-scroll ">
+        <i class="fas fa-angle-up fa-2x text-primary "></i>
+    </a>
+
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js "></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js "></script>
+
+    <script>
+        // Get the current year for the copyright
+        $('#year').text(new Date().getFullYear());
+
+        // Lightbox Init
+        $(document).on('click', '[data-toggle="lightbox "]', function(event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+            /*========== TOP SCROLL BUTTON ==========*/
+
+        //     $(document).ready(function() { //when document is ready
+        //     $(window).scroll(function() { //when webpage is scrolled
+        //         if ($(this).scrollTop() > 300) { //if scroll from top is more than 500
+        //             $('.top-scroll').fadeIn(); //display element with class 'top-scroll'; opacity increases
+        //         } else { //if not
+        //             $('.top-scroll').fadeOut(); //hide element with class 'top-scroll'; opacity decreases
+        //         }
+        //     });
+        // });
+
+       
+    </script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<script>
+
+    /*========== TOP SCROLL BUTTON WA==========*/
+   
+    $(document).ready(function() { //when document is ready
+               $(window).scroll(function() { //when webpage is scrolled
+               var $target = $('#main-footer');
+                   if ($(this).scrollTop() > 200) { //if scroll from top is more than 300
+                       $('.fixed-whatsapp').fadeIn(); //display element with class 'top-scroll'; opacity increases
+                   }
+                   else { //if not
+                       $('.fixed-whatsapp').fadeOut(); //hide element with class 'top-scroll'; opacity decreases
+                       console.log('taci')
+                   }
+               });
+           });
+   
+       //     var $wa =  $('.fixed-whatsapp').innerHeight();
+       //    var $lebar = $(window).innerWidth();
+       //    var $tinggi = $(window).innerHeight();
+   
+       //     console.log ('wa' + $wa);
+       //    console.log('tinggi'+ $tinggi);
+       //    console.log('lebar'+ $lebar);
+   
+       //    $(document).ready(function() { //when document is ready
+       //        if($(window).innerHeight() = 500){
+       //         $('.fixed-whatsapp').fadeOut();
+       //         console.log('apa sih')
+       //        }
+       //     });
+       </script>
+
+       <script src="js/slider/dist/owl.carousel.js"></script>
+       <script src="js/slider/dist/owl.carousel.min.js"></script>
+       <script>
+           $('.owl-berita').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    autoplay:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:false,
+            dots:true,
+        },
+        600:{
+            items:2,
+            nav:false,
+            dots:true,
+        },
+        1000:{
+            items:3,
+            dots:true,
+            nav:false,
+            loop:true,
+            center:true
+        }
+    }
+})
+       </script>
+</body>
+
+</html>
